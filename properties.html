@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Noto+Sans:ital,wght@0,300;0,500;1,200;1,400&family=Poppins:wght@100;200;300;400&family=Raleway:wght@100;200;300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Erick Franco</title>
+    <script defer src="properties.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar big-screen-navbar">
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a href="#About" class="nav-link hover-transition">About</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#Previous Work" class="nav-link hover-transition"
+              >Previous Work</a
+            >
+          </li>
+          <li class="nav-list-item">
+            <a href="#Projects" class="nav-link hover-transition">Projects</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#Contact" class="nav-link hover-transition">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="navbar small-screen-navbar">
+        <input type="checkbox" class="navbar-trigger" id="navbar-trigger" />
+        <label
+          for="navbar-trigger"
+          id="navbar-expand-button"
+          class="navbar-circular-icon-button"
+          aria-label="open navbar"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <div
+          id="small-screen-navbar-element-container"
+          class="small-screen-navbar-element-container"
+        >
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="#About" class="nav-link hover-transition">About</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#Previous Work" class="nav-link hover-transition"
+                >Previous Work</a
+              >
+            </li>
+            <li class="nav-list-item">
+              <a href="#Projects" class="nav-link hover-transition">Projects</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#Contact" class="nav-link hover-transition">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div id="About" class="content-container">
+      <h1>About</h1>
+      <p>This section will contain information about me.</p>
+    </div>
+
+    <div id="Previous-Work" class="content-container">
+      <h1>Previous Work</h1>
+      <p>
+        This section will contain information about my work histort or classes.
+      </p>
+    </div>
+
+    <div id="Projects" class="content-container">
+      <h1>Projects</h1>
+      <p>This section will contain information about my previous projects.</p>
+    </div>
+    <div id="Contact" class="content-container">
+      <h1>Contact</h1>
+      <p>This section will contain information about me.</p>
+    </div>
+
+    <footer>Made by Erick Franco</footer>
+  </body>
+</html>
