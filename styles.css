@@ -6,25 +6,26 @@
   --lightbrown: #93785b;
   --lightestbrown: #ac8968;
   --lightgrey: #a69080;
+  --baige: #fff8e8;
 }
 
 html {
+  font-family: "calibri", sans-serif;
   box-sizing: border-box;
+  scroll-padding-top: 65px;
   font-size: 18px;
-  font-family: "Noto Sans", sans-serif;
-  scroll-padding-top: 60px;
 }
 
 .content-container {
-  padding: 20px;
   max-width: 1024px;
+  padding: 20px;
   margin: auto;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--lightestbrown);
+  background-color: var(--baige);
 }
 
 .dark-background-container {
@@ -41,8 +42,8 @@ body {
 .navbar {
   position: fixed;
   width: 100%;
-  padding: 15px;
   box-sizing: border-box;
+  padding: 16px;
   background-color: var(--darkearthy);
 }
 
@@ -71,7 +72,7 @@ body {
 }
 
 .nav-list-item:hover {
-  border: 2px solid var(--white);
+  border: 2px solid var(--lightbrown);
   border-radius: 20px;
   cursor: pointer;
 }
@@ -121,4 +122,104 @@ body {
 .space-evenly-distributed-row-container {
   display: flex;
   justify-content: space-evenly;
+}
+
+.clear-margin-top {
+  margin-top: 0;
+}
+
+.card {
+  width: 300px;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.download-resume {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--darkearthy);
+  color: var(--white);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.project-image {
+  width: 200px;
+  object-fit: cover;
+  height: 200px;
+  border-radius: 10%;
+  align-self: center;
+}
+
+.project-text-margin-left {
+  margin-left: 30px;
+}
+
+.characteristics-text-margin-right {
+  margin-right: 30px;
+}
+
+.download-resume:hover {
+  background-color: var(--brown);
+}
+
+.space-between-distributed-row-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1023px) {
+  .vertically-stacked-mid-screen-container {
+    flex-direction: column;
+  }
+
+  html {
+    scroll-padding-top: 320px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .small-screen-navbar {
+    display: block;
+  }
+
+  .large-screen-navbar {
+    display: none;
+  }
+
+  .landing-image {
+    margin: auto;
+  }
+
+  .landing-text-container {
+    max-width: unset;
+  }
+
+  .heading-1 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 757px) {
+  .vertically-stacked-sm-screen-container {
+    flex-direction: column;
+  }
+
+  .landing-image {
+    width: 250px;
+    height: 250px;
+  }
+
+  .heading-1 {
+    font-size: 4rem;
+  }
 }
