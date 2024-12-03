@@ -2,6 +2,7 @@
   --black: #000;
   --white: #fff;
   --darkearthy: #3e362e;
+  --darkearthy-transparent: rgba(62, 54, 46, 0.5);
   --brown: #865d36;
   --lightbrown: #93785b;
   --lightestbrown: #ac8968;
@@ -161,7 +162,7 @@ body {
   margin-left: 30px;
 }
 
-.characteristics-text-margin-right {
+.project-text-margin-right {
   margin-right: 30px;
 }
 
@@ -173,6 +174,101 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+.form-button {
+  width: 200px;
+  background-color: var(--darkearthy);
+  color: var(--lightestbrown);
+  border: 1px solid var(--lightbrown);
+  font-family: inherit;
+  font-size: 1rem;
+  display: block;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.form-button:hover {
+  background-color: var(--lightgrey);
+  color: var(--white);
+  border: 1px solid var(--lightbrown);
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.form {
+  width: 700px;
+  margin: auto;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.form-input-box {
+  width: 300px;
+  height: 40px;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.form-fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.form-element-container {
+  margin-bottom: 15px;
+}
+
+.form-buttons-container {
+  padding-bottom: 30px;
+}
+
+.form-textarea {
+  width: 100%;
+}
+
+.close-popup-button {
+  font-size: 2rem;
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  background-color: transparent;
+  border: none;
+}
+
+.close-popup-button:hover {
+  color: var(--darkearthy);
+  background-color: var(--lightestbrown);
+  cursor: pointer;
+}
+
+.popup-section-container {
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: var(--darkearthy-transparent);
+}
+
+.popup-section {
+  background-color: var(--white);
+  max-width: 846px;
+  max-height: 70vh;
+  overflow-y: scroll;
+  margin: 160px auto;
+  padding: 33px;
+}
+
 
 @media screen and (max-width: 1023px) {
   .vertically-stacked-mid-screen-container {
@@ -221,5 +317,23 @@ body {
 
   .heading-1 {
     font-size: 4rem;
+  }
+
+  .form {
+    width: unset;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .label-input-group {
+    flex-direction: column;
+  }
+
+  .form-input-box {
+    width: 100%;
+  }
+
+  .form-button {
+    width: 180px;
   }
 }

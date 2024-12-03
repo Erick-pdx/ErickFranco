@@ -127,7 +127,7 @@
     </div>
     <!-- So I can visaully seperate each section -->
     <div id="PreviousWork" class="content-container">
-      <h1 class="clear-margin-top">Previous Work</h1>
+      <h1 class="clear-margin-top">Previous Work and Classes</h1>
       <div
         class="space-evenly-distributed-row-container vertically-stacked-mid-screen-container"
       >
@@ -164,14 +164,29 @@
               vulputate commodo convallis.
             </p>
           </div>
-          <a
-            href="/images/Erick Franco's Resume (1).pdf"
-            class="download-resume"
-            download
-            >Download Resume</a
-          >
+          <!--  -->
+          <a class="download-resume" aria-label="open pop up of resume">Preview Resume</a>
         </div>
-
+        <div class="popup-section-container">
+          <div class="popup-section">
+            <div class="space-between-distributed-row-container">
+                <!-- <h3>Acceptance</h3> -->
+                <button type="button" class="close-popup-button" aria-label="Close pop up">
+                <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+          </div>
+        </div>
+        <!--
+          <a
+          href="/images/Erick Franco's Resume (1).pdf"
+          class="download-resume"
+          aria-label="Download Example Document, PDF format"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Download Resume (PDF, opens in a new tab)</a
+        >      
+      </div> -->
         <div class="card">
           <div>
             <h2 class="clear-margin-top">Class 3</h2>
@@ -196,7 +211,7 @@
         <h1>Projects</h1>
         <div class="space-between-distributed-row-container content-container">
           <img
-            alt="The login of my message app, asking for email and password, along with the option to have a guest sign in, and or sign up with an account"
+            alt="The login of my message app, asking for email and password"
             class="project-image"
             src="./images/Screenshot 2024-12-01 151726.png"
           />
@@ -227,7 +242,7 @@
         </div>
       </div>
       <div class="space-between-distributed-row-container content-container">
-        <div class="characteristics-text-margin-right">
+        <div class="project-text-margin-right">
           <h2>4-Player Snake Game</h2>
           <p>
             Etiam libero mauris fames nisl sodales ridiculus. Sed justo elit
@@ -257,13 +272,106 @@
           src="./images/Screenshot 2024-12-01 145114.png"
         />
       </div>
+      <div class="space-between-distributed-row-container content-container">
+        <img
+          alt="terminal from my project that shows the user the options they have to choose from"
+          class="project-image"
+          src="./images/Screenshot 2024-12-01 211433.png"
+        />
+        <div class="project-text-margin-left">
+          <h2>Text Adventure</h2>
+          <p>
+            Etiam libero mauris fames nisl sodales ridiculus. Sed justo elit
+            aenean ipsum metus ligula egestas sapien quisque. Magnis dis
+            volutpat ex curabitur orci id netus a taciti. Duis leo cubilia augue
+            ridiculus nisl ac eu in odio. Molestie cursus sagittis adipiscing
+            nibh inceptos natoque. Netus non ad faucibus interdum mi egestas
+            risus nunc vivamus. Convallis praesent cras etiam massa ipsum elit.
+            Taciti dolor vivamus tempor lobortis varius laoreet. Tempor mus
+            purus tellus fusce blandit donec porta odio litora. Tellus placerat
+            pulvinar vehicula diam semper class magna.
+            <br />
+            <br />
+            Litora montes ipsum lectus sagittis fringilla. Nisl porta elit
+            faucibus lorem sociosqu. Enim imperdiet ipsum et vitae turpis elit?
+            Aenean congue ultricies dis class neque. Nibh convallis hendrerit
+            adipiscing purus mus ultricies? Purus vitae id mollis orci sapien
+            hac ultrices. Aenean sodales morbi pellentesque augue at posuere
+            metus. Augue est diam augue fusce porttitor sollicitudin nisi ipsum
+            penatibus. Tincidunt cras vulputate finibus sapien dolor morbi risus
+            vivamus.
+          </p>
+        </div>
+      </div>
     </div>
     <!-- So I can visaully seperate each section -->
-    <div id="Contact" class="content-container">
-      <h1>Contact</h1>
-      <p>This section will contain information about me.</p>
-    </div>
-
+    <form id="Contact" class="content-container form">
+      <h1>Contact Me</h1>
+      <div
+        class="space-between-distributed-row-container vertically-stacked-sm-screen-container"
+      >
+        <p class="label-input-group form-element-container">
+          <span class="form-label">Name</span>
+          <input
+            aria-label="name"
+            class="form-input-box"
+            type="text"
+            id="name"
+            name="name"
+          />
+        </p>
+        <p class="label-input-group form-element-container">
+          <span class="form-label">Company</span>
+          <input
+            aria-label="company"
+            class="form-input-box"
+            type="text"
+            id="company"
+            name="company"
+          />
+        </p>
+      </div>
+      <div
+        class="space-between-distributed-row-container vertically-stacked-sm-screen-container"
+      >
+        <p class="label-input-group form-element-container">
+          <span class="form-label">Email</span>
+          <input
+            aria-label="email"
+            class="form-input-box"
+            type="email"
+            id="email"
+            name="email"
+          />
+        </p>
+        <p class="label-input-group form-element-container">
+          <span class="form-label">Phone Number and Ext</span>
+          <input
+            aria-label="phone"
+            class="form-input-box"
+            type="tel"
+            id="phone-number"
+            name="phone-number"
+          />
+        </p>
+      </div>
+      <label class="form-label" for="message"
+        >Feel free to leave me a message</label
+      >
+      <textarea
+        class="form-textarea form-element-container"
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <div
+        class="form space-evenly-distributed-row-container form-buttons-container"
+      >
+        <input class="form-button" type="submit" value="submit" />
+        <input class="form-button" type="reset" value="reset" />
+      </div>
+    </form>
     <footer>Made by Erick Franco</footer>
   </body>
 </html>
