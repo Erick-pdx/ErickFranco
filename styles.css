@@ -78,9 +78,13 @@ body {
   cursor: pointer;
 }
 
+/* change this to maybe make the link easier to press */
 .nav-link {
   text-decoration: none;
-  color: white;
+  color: var(--baige);
+  display: inline-block;
+  width: 80%;
+  height: 120%;
 }
 
 .small-screen-navbar {
@@ -178,8 +182,8 @@ body {
 .form-button {
   width: 200px;
   background-color: var(--darkearthy);
-  color: var(--lightestbrown);
-  border: 1px solid var(--lightbrown);
+  color: var(--white);
+  border: 1px solid var(--baige);
   font-family: inherit;
   font-size: 1rem;
   display: block;
