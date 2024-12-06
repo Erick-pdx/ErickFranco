@@ -79,4 +79,16 @@ The js Additions was a bit hard as I feel I am not to familar in js, but my best
 
 Lastly I added to the css by making a those buttons for the resume or resuing them is the better word and changing the margin between them to look more natural, and adding the space in the pop up for my preview image of my resume.
 
-### Session 12-6 12:00 commit: 04f1581
+### Session 12-6 12:00 commit: c62baa0
+
+In this session I changed most of my div to better match their uses, also adding a hyperlink to the different projects I showed and customized the links to be buttons even trying a new transition setting which lowed down the hover, add a font and cursive writing to my footer.
+
+-link to github
+-footer
+-div changes
+
+Because we have to add links to our git hub I made the hyperlink a button to change the page into the github of that project and did that for all projects now all having a link. Next the css of the button was tricky because the gradiant made the color look werid depending on if the button was on the dark parts of the light so I chose a grey to make them all still look the same no matter the background. 
+
+The footer I added a while ago however the font always looked weird, but this time with the use of css I made it cented with a dark background and be written in cursive it really adds what I was looking for to the bottom of the page since the form wasnt long enough now everything looks good. 
+
+Lasty I went to every div and decided if the different element fit the job better, and for most there was a section or article that could be used, however I went overboard and the html checker was telling me that if I dont change come of it than the font size has to change making the page look miss matched with the rest of the page.
