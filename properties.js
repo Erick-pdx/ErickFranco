@@ -1,29 +1,29 @@
 const showResumeButtons = document.querySelectorAll(".preview-resume");
 
-for (const showResumeButton of showResumeButtons) {
+showResumeButtons.forEach((showResumeButton) => {
   showResumeButton.addEventListener("click", (event) => {
     const popupSection = event.currentTarget.parentElement.nextElementSibling;
     popupSection.style.display = "block";
   });
-}
+});
 
 const closeResumeButtons = document.querySelectorAll(".close-popup-button");
 
-for (const closeResumeButton of closeResumeButtons) {
+closeResumeButtons.forEach((closeResumeButton) => {
   closeResumeButton.addEventListener("click", (event) => {
     console.log(event.target);
     const popupSection =
       event.currentTarget.parentElement.parentElement.parentElement;
     popupSection.style.display = "none";
   });
-}
+});
 
-function downloadResume() {
+const downloadResume = () => {
   const link = document.createElement("a");
   link.href = "/images/Erick Franco's Resume (1).pdf";
   link.download = "Erick Franco's Resume.pdf";
   link.click();
-}
+};
 
 const contactForm = document.getElementById("Contact");
 contactForm.addEventListener("submit", (event) => {
@@ -32,5 +32,5 @@ contactForm.addEventListener("submit", (event) => {
 });
 
 contactForm.addEventListener("reset", () => {
-  alert("Form reset!");
+  alert("Form reset successfully");
 });
