@@ -30,7 +30,6 @@ body {
 }
 
 .dark-background-container {
-  background: var(--darker-brown);
   background: linear-gradient(
     34deg,
     var(--darkearthy) 15%,
@@ -69,7 +68,6 @@ body {
   padding: 10px;
   width: 200px;
   text-align: center;
-  border: 2px solid var(--transparent);
 }
 
 .nav-list-item:hover {
@@ -83,7 +81,7 @@ body {
   text-decoration: none;
   color: var(--baige);
   display: inline-block;
-  width: 80%;
+  width: 100%;
   height: 120%;
 }
 
@@ -152,6 +150,27 @@ body {
   text-decoration: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 10px;
+}
+
+.download-resume:hover {
+  background-color: var(--brown);
+}
+
+.preview-resume {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--darkearthy);
+  color: var(--white);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.preview-resume:hover {
+  background-color: var(--brown);
 }
 
 .project-image {
@@ -168,10 +187,6 @@ body {
 
 .project-text-margin-right {
   margin-right: 30px;
-}
-
-.download-resume:hover {
-  background-color: var(--brown);
 }
 
 .space-between-distributed-row-container {
@@ -273,14 +288,12 @@ body {
   padding: 33px;
 }
 
-
 .popup-section img {
   max-width: 300%;
   height: auto;
   display: block;
   margin: 0 auto;
 }
-
 
 @media screen and (max-width: 1023px) {
   .vertically-stacked-mid-screen-container {
@@ -317,7 +330,7 @@ body {
   }
 }
 
-@media screen and (max-width: 757px) {
+@media screen and (max-width: 769px) {
   .vertically-stacked-sm-screen-container {
     flex-direction: column;
   }
@@ -325,6 +338,14 @@ body {
   .landing-image {
     width: 250px;
     height: 250px;
+  }
+
+  .big-screen-navbar {
+    display: none;
+  }
+
+  .small-screen-navbar {
+    display: block;
   }
 
   .heading-1 {
@@ -347,5 +368,16 @@ body {
 
   .form-button {
     width: 180px;
+  }
+
+  .popup-section {
+    width: 90%;
+    max-height: 80vh;
+    padding: 10px;
+  }
+
+  .popup-section img {
+    width: 75%;
+    height: auto;
   }
 }
