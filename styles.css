@@ -106,6 +106,10 @@ body {
   height: 350px;
   margin: 45px;
   border-radius: 50%;
+  display: block;
+  align-self: start;
+  background-position: center;
+  background-size: cover;
 }
 
 .landing-text-container {
