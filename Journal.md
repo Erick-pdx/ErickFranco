@@ -92,3 +92,12 @@ Because we have to add links to our git hub I made the hyperlink a button to cha
 The footer I added a while ago however the font always looked weird, but this time with the use of css I made it cented with a dark background and be written in cursive it really adds what I was looking for to the bottom of the page since the form wasnt long enough now everything looks good. 
 
 Lasty I went to every div and decided if the different element fit the job better, and for most there was a section or article that could be used, however I went overboard and the html checker was telling me that if I dont change come of it than the font size has to change making the page look miss matched with the rest of the page.
+
+### Session 12-6 12:00 commit: b341dda
+
+renaming the html to index, because it would only show the readme so I had to google unless the html is name index it won't work.
+
+### Session 12-6 3-5 unknown commit as it will be the last commit
+
+In this last session I went through and added some accessibilty parts and labels along with changes to the css which was me getting rid of code that served no purpose, ie I deleted them and no changes were made so I say they were of no use, also doing any final html checkers with the added code and deleted code in both the css and html. Also added to the ReamMe all the files that I used as reference, and just talked about how the conceptually helped me as I tried not to copy code but use it to help my own, also adding how to run the code if the user wanted to run it locally rather in my deployment.
+

@@ -7,7 +7,7 @@
   --lightbrown: #93785b;
   --lightestbrown: #ac8968;
   --lightgrey: #a69080;
-  --baige: #fff8e8;
+  --beige: #fff8e8;
 }
 
 html {
@@ -26,7 +26,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--baige);
+  background-color: var(--beige);
 }
 
 .dark-background-container {
@@ -78,7 +78,7 @@ body {
 
 .nav-link {
   text-decoration: none;
-  color: var(--baige);
+  color: var(--beige);
   display: inline-block;
   width: 100%;
   height: 120%;
@@ -106,11 +106,6 @@ body {
   height: 350px;
   margin: 45px;
   border-radius: 50%;
-  display: block;
-  align-self: start;
-  background-image: url("./images/ErickPFP.jpg");
-  background-position: center;
-  background-size: cover;
 }
 
 .landing-text-container {
@@ -140,7 +135,7 @@ body {
   justify-content: space-between;
 }
 
-.download-resume {
+.resume-button {
   display: inline-block;
   padding: 10px 20px;
   background-color: var(--darkearthy);
@@ -152,7 +147,7 @@ body {
   margin-top: 10px;
 }
 
-.download-resume:hover {
+.resume-button:hover {
   background-color: var(--brown);
 }
 
@@ -197,7 +192,7 @@ body {
   width: 200px;
   background-color: var(--darkearthy);
   color: var(--white);
-  border: 1px solid var(--baige);
+  border: 1px solid var(--beige);
   font-family: inherit;
   font-size: 1rem;
   display: block;
@@ -229,12 +224,6 @@ body {
   height: 40px;
   font-size: inherit;
   font-family: inherit;
-}
-
-.form-fieldset {
-  padding: 0;
-  margin: 0;
-  border: none;
 }
 
 .form-element-container {
@@ -307,7 +296,7 @@ body {
 }
 
 .link:hover {
-  background-color: var(--baige);
+  background-color: var(--beige);
   color: var(--darkearthy);
 }
 
