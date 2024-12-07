@@ -108,6 +108,7 @@ body {
   border-radius: 50%;
   display: block;
   align-self: start;
+  background-image: url("./images/ErickPFP.jpg");
   background-position: center;
   background-size: cover;
 }
