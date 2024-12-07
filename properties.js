@@ -20,8 +20,8 @@ closeResumeButtons.forEach((closeResumeButton) => {
 
 const downloadResume = () => {
   const link = document.createElement("a");
-  link.href = "/images/ErickFranco_Resume.pdf";
-  link.download = "Erick Franco's Resume.pdf";
+  link.href = "ErickFranco_Resume.pdf";
+  link.download = "Erick_Franco's_Resume.pdf";
   link.click();
 };
 
