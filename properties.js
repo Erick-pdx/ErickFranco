@@ -24,7 +24,3 @@ const downloadResume = () => {
   link.download = "Erick_Franco's_Resume.pdf";
   link.click();
 };
-
-contactForm.addEventListener("reset", () => {
-  alert("Form reset successfully");
-});
