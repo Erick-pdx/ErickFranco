@@ -1,7 +1,13 @@
+### Deplotmemt wensite
+
+https://erick-pdx.github.io/ErickFranco/ 
+
+https://github.com/Erick-pdx/ErickFranco
+
 ### Session 11-30 1:00-4:00 Commit: 381a7a6
 
 This session lasted about 3 hours of me deciding which type of website I want to create whether that was a multi-page website or a scroll down website and since I had already done something to a multi-page I thought to try out a single long page. In this website I currently have set up the basic parts of the webite which is the outline and what will be on it in general I have been using websites as reference but not their code, however I have been using hw4 when I get stuck because it is similar to what I want my website to look like.
-
+ 
 ### Session 11-30 4:00-9:00 Commit: 615ba15 and bc62445
 
 The outline is done and its very bland I used hw#4 as a reference and to help get a more professional look for the texts but there is still no color, design, or information on screen. However now the navbar I would say is done, and I decided on a color scheme for the website which will be like 5 colors all earthy colors.
@@ -97,7 +103,6 @@ Lasty I went to every div and decided if the different element fit the job bette
 
 renaming the html to index, because it would only show the readme so I had to google unless the html is name index it won't work.
 
-### Session 12-6 3-5 unknown commit as it will be the last commit
-
+### Session 12-6 3-5 commit: 1e94c3f
 In this last session I went through and added some accessibilty parts and labels along with changes to the css which was me getting rid of code that served no purpose, ie I deleted them and no changes were made so I say they were of no use, also doing any final html checkers with the added code and deleted code in both the css and html. Also added to the ReamMe all the files that I used as reference, and just talked about how the conceptually helped me as I tried not to copy code but use it to help my own, also adding how to run the code if the user wanted to run it locally rather in my deployment.
 
