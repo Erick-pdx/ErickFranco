@@ -25,12 +25,6 @@ const downloadResume = () => {
   link.click();
 };
 
-const contactForm = document.getElementById("Contact");
-contactForm.addEventListener("submit", (event) => {
-  event.preventDefault();
-  alert("Form submitted successfully!");
-});
-
 contactForm.addEventListener("reset", () => {
   alert("Form reset successfully");
 });
